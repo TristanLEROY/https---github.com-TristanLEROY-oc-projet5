@@ -20,11 +20,11 @@ const slides = [
 // function that load the carrousel
 document.body.onload = function () {
   //variable that pass to the previous image and call function
-  let prevImages = document
+  document
     .querySelector('.arrow_left')
     .addEventListener('click', leftArrowClick)
   //variable that pass to the next image and call function
-  let nextImage = document
+  document
     .querySelector('.arrow_right')
     .addEventListener('click', rightArrowClick)
   let current = 0
